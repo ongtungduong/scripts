@@ -36,3 +36,9 @@ To bring Disks online on Ubuntu servers, run the following command:
 curl https://raw.githubusercontent.com/ongtungduong/scripts/main/online-disk.sh | bash
 ```
 
+To install K9S on Ubuntu servers, run the following command:
+
+```bash
+curl https://raw.githubusercontent.com/ongtungduong/scripts/main/install-k9s.sh | bash
+```
+
