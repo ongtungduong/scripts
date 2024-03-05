@@ -1,8 +1,8 @@
 #!/bin/bash
 
-for device in $(ls /sys/class/scsi_device/)
+for DEVICE_DIR in $(ls /sys/class/scsi_device/)
 do
-    echo "Found device: ${device}"
+    echo "Found device: ${DEVICE_DIR}"
     echo "Bringing online"
-    echo 1 > /sys/class/scsi_device/$device/device/rescan
+    echo 1 > /sys/class/scsi_device/$DEVICE_DIR/device/rescan
 done
