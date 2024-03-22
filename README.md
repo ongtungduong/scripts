@@ -21,19 +21,19 @@ curl https://raw.githubusercontent.com/ongtungduong/scripts/main/install-psql.sh
 To bring CPUs online on Ubuntu servers, run the following command:
 
 ```bash
-curl https://raw.githubusercontent.com/ongtungduong/scripts/main/online-cpu.sh | bash
+curl https://raw.githubusercontent.com/ongtungduong/scripts/main/rescan-cpu.sh | bash
 ```
 
 To bring RAM online on Ubuntu servers, run the following command:
 
 ```bash
-curl https://raw.githubusercontent.com/ongtungduong/scripts/main/online-ram.sh | bash
+curl https://raw.githubusercontent.com/ongtungduong/scripts/main/rescan-ram.sh | bash
 ```
 
 To bring Disks online on Ubuntu servers, run the following command:
 
 ```bash
-curl https://raw.githubusercontent.com/ongtungduong/scripts/main/online-disk.sh | bash
+curl https://raw.githubusercontent.com/ongtungduong/scripts/main/rescan-disk.sh | bash
 ```
 
 To install K9S on Ubuntu servers, run the following command:
